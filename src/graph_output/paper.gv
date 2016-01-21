@@ -1,0 +1,31 @@
+# Visualization of Graph ./graph_output/paper.gv, size=9
+
+digraph g {
+
+	#TITLE
+	labelloc="t";
+	label="type=paper.gv, size=9;"
+
+	# NODES
+	N00 [ label=" 0"color="#000000", fillcolor="#00003e", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N01 [ label=" 1"color="#000000", fillcolor="#000075", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N02 [ label=" 2"color="#000000", fillcolor="#000075", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N03 [ label=" 3"color="#000000", fillcolor="#0000e3", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N04 [ label=" 4"color="#000000", fillcolor="#000075", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N05 [ label=" 5"color="#000000", fillcolor="#0000e3", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N06 [ label=" 6"color="#000000", fillcolor="#0000ac", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N07 [ label=" 7"color="#000000", fillcolor="#0000ac", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N08 [ label=" 8"color="#000000", fillcolor="#00003e", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+
+	# EDGES
+	N00 -> N02 [ penwidth=2, style="solid", color="#000000" ];
+	N01 -> N07 [ penwidth=2, style="solid", color="#000000" ];
+	N02 -> N06 [ penwidth=2, style="solid", color="#000000" ];
+	N03 -> N05 [ penwidth=2, style="solid", color="#000000" ];
+	N04 -> N07 [ penwidth=2, style="solid", color="#000000" ];
+	N06 -> N03 [ penwidth=2, style="solid", color="#000000" ];
+	N06 -> N04 [ penwidth=2, style="solid", color="#000000" ];
+	N07 -> N05 [ penwidth=2, style="solid", color="#000000" ];
+	N08 -> N01 [ penwidth=2, style="solid", color="#000000" ];
+	N08 -> N04 [ penwidth=2, style="solid", color="#000000" ];
+}

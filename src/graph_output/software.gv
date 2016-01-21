@@ -1,0 +1,59 @@
+# Visualization of Graph ./graph_output/software.gv, size=15
+
+digraph g {
+
+	#TITLE
+	labelloc="t";
+	label="type=software.gv, size=15;"
+
+	# NODES
+	N00 [ label=" 5"color="#000000", fillcolor="#0000a1", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N01 [ label=" 4"color="#000000", fillcolor="#000082", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N02 [ label=" 3"color="#000000", fillcolor="#000062", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N03 [ label=" 3"color="#000000", fillcolor="#000062", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N04 [ label=" 4"color="#000000", fillcolor="#000082", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N05 [ label=" 6"color="#000000", fillcolor="#0000c0", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N06 [ label=" 4"color="#000000", fillcolor="#000082", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N07 [ label=" 2"color="#000000", fillcolor="#000043", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N08 [ label=" 6"color="#000000", fillcolor="#0000c0", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N09 [ label=" 2"color="#000000", fillcolor="#000043", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N10 [ label=" 1"color="#000000", fillcolor="#000023", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N11 [ label=" 1"color="#000000", fillcolor="#000023", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N12 [ label=" 1"color="#000000", fillcolor="#000023", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N13 [ label=" 4"color="#000000", fillcolor="#000082", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+	N14 [ label=" 7"color="#000000", fillcolor="#0000e0", fontcolor=white, fontname="Courier:italic", shape="circle", style="filled,solid" ];
+
+	# EDGES
+	N00 -> N05 [ penwidth=2, style="solid", color="#000000" ];
+	N00 -> N08 [ penwidth=2, style="solid", color="#000000" ];
+	N01 -> N00 [ penwidth=2, style="solid", color="#000000" ];
+	N02 -> N01 [ penwidth=2, style="solid", color="#000000" ];
+	N02 -> N00 [ penwidth=2, style="solid", color="#000000" ];
+	N02 -> N04 [ penwidth=2, style="solid", color="#000000" ];
+	N03 -> N01 [ penwidth=2, style="solid", color="#000000" ];
+	N03 -> N00 [ penwidth=2, style="solid", color="#000000" ];
+	N03 -> N06 [ penwidth=2, style="solid", color="#000000" ];
+	N03 -> N13 [ penwidth=2, style="solid", color="#000000" ];
+	N07 -> N00 [ penwidth=2, style="solid", color="#000000" ];
+	N07 -> N05 [ penwidth=2, style="solid", color="#000000" ];
+	N07 -> N02 [ penwidth=2, style="solid", color="#000000" ];
+	N08 -> N14 [ penwidth=2, style="solid", color="#000000" ];
+	N09 -> N02 [ penwidth=2, style="solid", color="#000000" ];
+	N09 -> N01 [ penwidth=2, style="solid", color="#000000" ];
+	N09 -> N00 [ penwidth=2, style="solid", color="#000000" ];
+	N09 -> N04 [ penwidth=2, style="solid", color="#000000" ];
+	N09 -> N03 [ penwidth=2, style="solid", color="#000000" ];
+	N10 -> N09 [ penwidth=2, style="solid", color="#000000" ];
+	N10 -> N02 [ penwidth=2, style="solid", color="#000000" ];
+	N10 -> N01 [ penwidth=2, style="solid", color="#000000" ];
+	N10 -> N00 [ penwidth=2, style="solid", color="#000000" ];
+	N10 -> N04 [ penwidth=2, style="solid", color="#000000" ];
+	N10 -> N03 [ penwidth=2, style="solid", color="#000000" ];
+	N11 -> N07 [ penwidth=2, style="solid", color="#000000" ];
+	N11 -> N00 [ penwidth=2, style="solid", color="#000000" ];
+	N11 -> N05 [ penwidth=2, style="solid", color="#000000" ];
+	N11 -> N02 [ penwidth=2, style="solid", color="#000000" ];
+	N11 -> N09 [ penwidth=2, style="solid", color="#000000" ];
+	N12 -> N06 [ penwidth=2, style="solid", color="#000000" ];
+	N12 -> N03 [ penwidth=2, style="solid", color="#000000" ];
+}
